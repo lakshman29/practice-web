@@ -16,7 +16,7 @@ inputs:
  # - name: resource-gist
 
 outputs:
-  - name: repo-output
+  - name: put-repository
 
 run:
   #path: repo/12_publishing_outputs/bump-timestamp-file.sh
