@@ -22,4 +22,4 @@ run:
   #path: repo/12_publishing_outputs/bump-timestamp-file.sh
   #path: repo/push.sh
   path: sh
-  args: ["repo/push.sh"]
+  args: ["repo/ci/push.sh"]
