@@ -1,0 +1,25 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  #source: {repository: gitlab/gitlab-ce}
+  source:
+   repository: nitram509/debian-oraclejdk8-maven-cmake-gcc-gnueabihf
+   tag: latest
+ # type: git
+  #source:
+   # uri: https://github.com/lakshman29/concourse-tutorial.git
+  baggageclaim_url: http://192.168.100.4:7788
+inputs:
+  - name: repo
+ # - name: resource-gist
+
+outputs:
+  - name: repo-output
+
+run:
+  #path: repo/12_publishing_outputs/bump-timestamp-file.sh
+  #path: repo/push.sh
+  path: sh
+  args: ["repo/push.sh"]
