@@ -10,7 +10,7 @@ image_resource:
  # type: git
   #source:
    # uri: https://github.com/lakshman29/concourse-tutorial.git
-  baggageclaim_url: http://192.168.100.4:7788
+ # baggageclaim_url: http://192.168.100.4:7788
 inputs:
   - name: repo
  # - name: resource-gist
