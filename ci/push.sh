@@ -9,5 +9,10 @@ git init
 git add .
 git commit -m "pushing the repo"
 #git remote add origin https://github.com/lakshman29/practice-web.git
-git remote -v 
-git push -u origin master
+
+curl -u 'lakshman29@gmail.com:Test@123' https://api.github.com/user/repos -d '{"name":"resource"}'
+# Remember replace USER with your username and REPO with your repository/application name!
+git remote add origin git@github.com:lakshman29@gmail.com/resource.git
+git push origin master
+
+
