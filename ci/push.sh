@@ -3,7 +3,7 @@
 set -e # fail fast
 set -x # print commands
 #mvn archetype:generate -Dfilter=org.apache.maven.archetypes:maven-archetype-quickstart
-curl -u 'lakshman29@gmail.com:Test@123' https://api.github.com/user/repos -d '{"name":"resource1"}'
+curl -u 'lakshman29@gmail.com:xxxx@xxx' https://api.github.com/user/repos -d '{"name":"resource1"}'
 
 #git init
 mvn archetype:generate -DgroupId=com.test -DartifactId=DEF -Dpackaging=jar -Dversion=1.0 -DinteractiveMode=false
